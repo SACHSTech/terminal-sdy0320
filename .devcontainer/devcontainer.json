@@ -1,0 +1,13 @@
+{
+  "name": "Old School Java",
+
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+
+  "postCreateCommand": "java -version && javac -version"
+}
